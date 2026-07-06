@@ -1,7 +1,6 @@
-Smoke Detection System
 It is a IOT Based Smoke Detection System using ESP32
 
-##Project Overview:-
+Project Overview:-
 This project is an IoT-Based Smoke Detection System developed using ESP32 and MQ-2 Smoke Sensor. The system detects smoke in real time and activates a buzzer. It sends notifications through the Blynk application, stores event logs in Firebase Realtime Database, and sends a Telegram alert to a neighbour if the owner does not acknowledge the alert.
 
 ## Features:-
