@@ -35,3 +35,68 @@ This project is an IoT-Based Smoke Detection System developed using ESP32 and MQ
 - Blynk
 - Wi-Fi
 
+
+##Output:-
+ 1. Normal Monitoring
+
+[Normal Monitoring](Normal_monitoring(op).jpeg)
+
+Description:
+- This screen shows the normal working condition of the smoke detection system.
+- The smoke sensor value is within the safe range.
+- No smoke is detected, so the system status is "NORMAL".
+- No alert is sent to the user.
+
+
+ 2. Smoke Detected
+
+[Smoke Detected](Smoke_detected(op).jpeg)
+
+Description:
+- This screen shows that smoke has been detected.
+- The sensor value has crossed the threshold.
+- The system activates the smoke alert and updates the status.
+
+
+ 3. Blynk Notification
+
+[Blynk Notification](Blynk_notification(op).jpeg)
+
+Description:
+- A real-time notification is sent through the Blynk application when smoke is detected.
+- This helps the user receive an instant alert.
+
+
+ 4. Telegram Alert
+
+[Telegram Alert](Telegram_Alert(op).jpeg)
+
+Description:
+- If the owner does not acknowledge the alert within 60 seconds, a Telegram notification is sent to the neighbour/other person.
+- This ensures that emergency information reaches the user.
+
+
+ 5. Firebase Database blynk
+
+[Firebase Database](Firebase_database_blynk(op).png)
+
+Description:
+- Firebase Realtime Database stores the smoke level, risk level, timestamp, and action taken.
+- All records are saved for monitoring and analysis.
+
+
+ 6. Smoke Detected - Firebase realtime database
+[Smoke Detected Firebase](Smoke_detected_firebase_database(Op).png)
+
+Description:
+- This shows the database entry created after smoke detection.
+- The event details are stored automatically in Firebase.
+
+
+ 7.Firebase database telegram 
+
+ [Firebase Database Telegram](firebase_database_telegram(op).jpeg).
+
+ Description:
+ -Firebase Realtime Database stores the smoke level, risk level, timestamp, and action taken.
+ -If the owner did not acknowledge within 60 seconds in blynk app then telegram notification automatically send to the the neighbour.
