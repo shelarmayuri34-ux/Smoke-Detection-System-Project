@@ -47,12 +47,14 @@ Description:
 - No alert is sent to the user.
 
 
+
  2. Smoke Detected
 
 Description:
 - This screen shows that smoke has been detected.
 - The sensor value has crossed the threshold.
 - The system activates the smoke alert and updates the status.
+
 
 
  3. Blynk Notification
@@ -62,11 +64,13 @@ Description:
 - This helps the user receive an instant alert.
 
 
+
  4. Telegram Alert
 
 Description:
 - If the owner does not acknowledge the alert within 60 seconds, a Telegram notification is sent to the neighbour/other person.
 - This ensures that emergency information reaches the user.
+
 
 
  5. Firebase Database blynk
@@ -76,11 +80,13 @@ Description:
 - All records are saved for monitoring and analysis.
 
 
+
  6. Smoke Detected - Firebase realtime database
 
 Description:
 - This shows the database entry created after smoke detection.
 - The event details are stored automatically in Firebase.
+
 
 
  7.Firebase database telegram 
