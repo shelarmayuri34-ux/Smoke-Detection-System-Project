@@ -41,6 +41,7 @@ Output:-
  1. Normal Monitoring
 
 [Normal Monitoring](Normal_monitoring(op).jpeg)
+Normal_monitoring (op).jpeg
 
 Description:
 - This screen shows the normal working condition of the smoke detection system.
