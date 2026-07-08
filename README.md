@@ -39,8 +39,7 @@ This project is an IoT-Based Smoke Detection System developed using ESP32 and MQ
 Output:-
 
  1. Normal Monitoring
-
-[Normal Monitoring](Normal_monitoring(op).jpeg)
+    
 Normal_monitoring (op).jpeg
 
 Description:
@@ -100,5 +99,5 @@ Description:
  [Firebase Database Telegram](firebase_database_telegram(op).jpeg).
 
  Description:
- -Firebase Realtime Database stores the smoke level, risk level, timestamp, and action taken.
- -If the owner did not acknowledge within 60 seconds in blynk app then telegram notification automatically send to the the neighbour.
+ - Firebase Realtime Database stores the smoke level, risk level, timestamp, and action taken.
+ - If the owner did not acknowledge within 60 seconds in blynk app then telegram notification automatically send to the the neighbour.
