@@ -35,7 +35,6 @@ This project is an IoT-Based Smoke Detection System developed using ESP32 and MQ
 - Blynk
 - Wi-Fi
 
-
 ##Output:-
  1. Normal Monitoring
 
