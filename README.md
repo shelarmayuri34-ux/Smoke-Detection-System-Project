@@ -39,8 +39,6 @@ This project is an IoT-Based Smoke Detection System developed using ESP32 and MQ
 Output:-
 
  1. Normal Monitoring
-    
-Normal_monitoring (op).jpeg
 
 Description:
 - This screen shows the normal working condition of the smoke detection system.
@@ -51,8 +49,6 @@ Description:
 
  2. Smoke Detected
 
-[Smoke Detected](Smoke_detected(op).jpeg)
-
 Description:
 - This screen shows that smoke has been detected.
 - The sensor value has crossed the threshold.
@@ -61,16 +57,12 @@ Description:
 
  3. Blynk Notification
 
-[Blynk Notification](Blynk_notification(op).jpeg)
-
 Description:
 - A real-time notification is sent through the Blynk application when smoke is detected.
 - This helps the user receive an instant alert.
 
 
  4. Telegram Alert
-
-[Telegram Alert](Telegram_Alert(op).jpeg)
 
 Description:
 - If the owner does not acknowledge the alert within 60 seconds, a Telegram notification is sent to the neighbour/other person.
@@ -79,15 +71,12 @@ Description:
 
  5. Firebase Database blynk
 
-[Firebase Database](Firebase_database_blynk(op).png)
-
 Description:
 - Firebase Realtime Database stores the smoke level, risk level, timestamp, and action taken.
 - All records are saved for monitoring and analysis.
 
 
  6. Smoke Detected - Firebase realtime database
-[Smoke Detected Firebase](Smoke_detected_firebase_database(Op).png)
 
 Description:
 - This shows the database entry created after smoke detection.
@@ -95,8 +84,6 @@ Description:
 
 
  7.Firebase database telegram 
-
- [Firebase Database Telegram](firebase_database_telegram(op).jpeg).
 
  Description:
  - Firebase Realtime Database stores the smoke level, risk level, timestamp, and action taken.
